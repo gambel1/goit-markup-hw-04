@@ -210,21 +210,18 @@ nav li:last-child {
 .features-list li:last-child {
    margin-right: 0%;
 }
-   
-.features-group::before {
-   display: block;
-   content: "";
+.features-information {
    margin-bottom: 30px;
+   width: 270px; 
    height: 120px;
-   
-   border-radius: 4px;
    background: #F5F4FA;
-   background-repeat: no-repeat;
-   background-position: center;
+   border-radius: 4px;
 }
-.features-group:nth-child(1)::before {
-   background-image: url(../images/Group.svg);
+.features-icon {
+   width: 70px;
+   height: 70px;
 }
+
 .features-title {
    margin-bottom: 10px;
 
