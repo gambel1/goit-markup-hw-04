@@ -211,6 +211,10 @@ nav li:last-child {
    margin-right: 0%;
 }
 .features-information {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
    margin-bottom: 30px;
    width: 270px; 
    height: 120px;
@@ -221,7 +225,6 @@ nav li:last-child {
    width: 70px;
    height: 70px;
 }
-
 .features-title {
    margin-bottom: 10px;
 
@@ -314,9 +317,17 @@ nav li:last-child {
    letter-spacing: 0.03em;
    color: var(--title-text-color);
 }
-.command-link {
- 
+.yyy {
+   display: flex;
 }
+.command-link {
+   /* display: flex; */
+}
+.command-icon {
+ width: 44px;
+ height: 44px;
+}
+
 
 /* Футер */
 footer {
