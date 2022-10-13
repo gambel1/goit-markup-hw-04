@@ -280,7 +280,6 @@ nav li:last-child {
 }
 .command-list {
    display: flex;
-        
 }
 .command-list li {
    margin-right: 30px;
@@ -312,6 +311,8 @@ nav li:last-child {
    color: var(--primery-text-color);
 }
 .command-speciality {
+   margin-bottom: 16px;
+
    font-size: 16px;
    line-height: 1.18;
    letter-spacing: 0.03em;
@@ -319,6 +320,10 @@ nav li:last-child {
 }
 .yyy {
    display: flex;
+   margin-right: 60px;
+}
+.zzz {
+   
 }
 .command-link {
    /* display: flex; */
@@ -328,6 +333,17 @@ nav li:last-child {
  height: 44px;
 }
 
+/* Клиенты */
+.client {
+   margin-bottom: 50px;
+   text-align: center;
+
+   color: var(--primery-text-color);
+   font-weight: 700px;
+   font-size: 36px;
+   line-height: 1.16;
+   letter-spacing: 0.03em;
+}
 
 /* Футер */
 footer {
