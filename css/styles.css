@@ -181,6 +181,7 @@ nav li:last-child {
    line-height: 1.87;
    letter-spacing: 0.06em;
    border-radius: 4px;
+   border: none;
    font-family: inherit
 }
 .hero-button:hover {
@@ -470,13 +471,14 @@ footer {
 }
 .button-list-item {
    padding: 6px 32px;
-   
+      
    font-family: 'Roboto';
    font-weight: 500;
    font-size: 16px;
    line-height: 1.62;
    letter-spacing: 0.03em;
    border-radius: 4px;
+   border: none;
    background: #F5F4FA;
    color: var(--primery-text-color);
 }
