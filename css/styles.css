@@ -85,13 +85,14 @@ header {
 .nav {
    display: flex;
    margin-left: 93px;
+   gap: 50px;
 }
-nav li {
+/* nav li {
    margin-right: 50px;
 }
 nav li:last-child {
    margin-right: 0;
-}
+} */
 .link-nav {
    color: var(--primery-text-color);
    font-weight: 500;
@@ -110,14 +111,14 @@ nav li:last-child {
 .mail {
    display: flex;
    margin-left: auto;
+   gap: 50px;
 }
-.mail li {
+/* .mail li {
    margin-right: 50px;
-
 }
 .mail li:last-child {
    margin-right: 0%;
-}
+} */
 .mail-link {
    font-weight: 500;
    line-height: 1.14;
@@ -127,14 +128,13 @@ nav li:last-child {
 }
 .mail-link:hover{
    color: var(--acent-color);
+   fill: var(--acent-color);
    }
 .mail-link:focus {
    color: var(--acent-color);
+   fill: var(--acent-color);
 }
-.mail-icon, 
-.mail-icon-tel:hover {
-   fill: currentColor;
-}
+
 
 
 /* hero */
@@ -282,26 +282,18 @@ nav li:last-child {
 }
 .command-list {
    display: flex;
+   gap: 30px;
 }
-.command-list li {
-   margin-right: 30px;
-}
-.command-list li:last-child {
-   margin-right: 0%;
-}
-.command-ttt {
-   margin-right: 30px;
+.command-part {
+   width: 270px;
+   text-align: center;
    background: #FFFFFF;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
    border: transparent solid 1px;
 }
-.command-ttt:last-child {
-   margin-right: 0%;
-}
-.command-item {
-   padding: 30px 0%;
-   text-align: center;
+.command-box {
+   padding: 30px 32px;
 }
 .command-name {
    margin-bottom: 10px;
@@ -320,20 +312,28 @@ nav li:last-child {
    letter-spacing: 0.03em;
    color: var(--title-text-color);
 }
-.yyy {
+.command-second-list {
    display: flex;
-   
+   gap: 10px;
 }
-.zzz {
-   
-}
+
 .command-link {
-   /* display: flex; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 44px;
+   height: 44px;
+   fill: #AFB1B8;
+   border-radius: 50%;
+}
+.command-link:hover {
+   fill: var(--White);
+   background-color: var(--acent-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 .command-icon {
- width: 44px;
- height: 44px;
- fill: red;
+   width: 20px;
+   height: 20px;
 }
 
 /* Клиенты */
@@ -361,13 +361,14 @@ nav li:last-child {
    border: 1px solid #AFB1B8;
    border-radius: 4px;
 }
+
 .client-icon {
    width: 106px;
    height: 60px;
-   fill: red;
+   fill:#AFB1B8;
 }
 .client-icon:hover {
-   fill: blue;
+   fill: var(--acent-color);
 }
 
 /* Футер */
@@ -426,6 +427,7 @@ footer {
 .footer-list {
    display: flex;
 }
+
 /* Портфолио */
 .button-list {
    display: flex;
