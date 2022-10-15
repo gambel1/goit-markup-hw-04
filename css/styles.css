@@ -332,8 +332,8 @@ nav li:last-child {
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 .command-link:focus {
-   fill: var(--fill-icon);
-   background-color: var(--White);
+   fill: var(--White);
+   background-color: var(--acent-color);
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 .command-icon {
@@ -470,7 +470,7 @@ footer {
    margin-right: 0%;
 }
 .button-list-item {
-   padding: 6px 32px;
+   padding: 6px 22px;
       
    font-family: 'Roboto';
    font-weight: 500;
@@ -483,12 +483,14 @@ footer {
    color: var(--primery-text-color);
 }
 .button-list-item:hover {
+   color: var(--White);
    background: var(--acent-color);
    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
    cursor: pointer;
 }
 .button-list-item:focus {
-   background: #F5F4FA;
+   color: var(--White);
+   background: var(--acent-color);
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    }
 .reclam {
